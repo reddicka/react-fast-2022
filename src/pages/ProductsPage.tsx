@@ -9,7 +9,7 @@ import { Modal } from '../components/Modal';
 import { CreateProduct } from '../components/CreateProduct';
 
 export default function ProductsPage() {
-    const { products, loading, error, addProduct } = useProducts();
+    const { products, error, addProduct } = useProducts();
     // const [modal, setModal] = useState(false);
     const { modal, open: openModal, close: closeModal } = useContext(ModalContext);
 
